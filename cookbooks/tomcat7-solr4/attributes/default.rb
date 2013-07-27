@@ -1,0 +1,9 @@
+default[:solr][:port] = '8983'
+default[:solr][:home] = '/var/opt/solr'
+default[:solr][:data_dir] = '' # use the default data directory in solr_home
+default[:solr][:collection] = 'collection1'
+default[:solr][:core_name] = 'collection1' # default core name
+default[:solr][:version] = "4.4.0" #solr version
+default[:solr][:url] = "http://archive.apache.org/dist/lucene/solr" # where to get solr
+default[:solr][:checksum] = "" #solr 4.4.0 checksum
+default[:tomcat][:config_dir] = "/var/lib/tomcat7/conf"
